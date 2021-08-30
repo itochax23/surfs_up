@@ -21,5 +21,13 @@ app = Flask(__name__)
 
 # Create our welcome route
 @app.route('/')
-def hello_world():
-    return 'Hello world'
+def welcome():
+    return(
+    '''
+    Welcome to the Climate Analysis API!
+    Available Routes:
+    /api/v1.0/precipitation
+    /api/v1.0/stations
+    /api/v1.0/tobs
+    /api/v1.0/temp/start/end
+    ''')
