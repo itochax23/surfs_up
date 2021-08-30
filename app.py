@@ -58,6 +58,3 @@ def temp_monthly():
      filter(Measurement.date >= prev_year).all()
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
-
-@app.route("/api/v1.0/temp/<start>")
-@app.route("/api/v1.0/temp/<end>")
