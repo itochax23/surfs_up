@@ -13,12 +13,23 @@ By running two seperate queries, one being for June and the other being December
 
 ### June
 Summary statistics:
-* three
-* major
+* The mean average temperature for June was 74.94 degrees Fahrenheit.
+* The lowest recorded temperature was 64, and the max was 85.
+
+![June summary statistics](Resources/June.png)
 
 ### December
 Summary statistics:
-* points
+* The mean for December was 71 degrees Fahrenheit.
+* The minimum was 56, and the max was 83.
+
+![December summary statistics](Resources/December.png)
 
 ## Summary
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+It would seem that the temperatures of the location we focused on would work for a surf and ice cream shop for most days throughout the year, as the standard deviation between these two points is small, at 0.5. 
+A few additional queries that we could perform to gather more weather data for June and December that could tell us advanced information for our business venture's projected success would be:
+* wind conditions
+* precipitation conditions
+* high and low tide conditions
+
+These could help us understand the hours we should open our shop, the seasons where there is more rain, and the additional staff we might need during peak surfing season.
